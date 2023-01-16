@@ -1,0 +1,12 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "ext-pgsql": "*",
+        "ramsey/uuid": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "bot/"
+        }
+    }
+}

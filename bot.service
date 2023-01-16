@@ -1,0 +1,11 @@
+[Unit]
+Description=Bot
+
+[Service]
+ExecStart=/usr/bin/php /path/to/script.php
+Restart=always
+User=myuser
+Group=mygroup
+
+[Install]
+WantedBy=multi-user.target
