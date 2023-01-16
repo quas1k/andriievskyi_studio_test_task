@@ -19,7 +19,7 @@ composer install
 
 To run the script, use the following command:
 ```sh
-php index.php
+php bot.php
 ```
 
 The script will continuously run, making requests to the external APIs, and handling the response data. You can configure the services that the script will run, and the pairs and currencies that will be used in the requests, in the config.ini file.
